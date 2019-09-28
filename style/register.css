@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.header{
+width: 1000px;
+height: 100px;
+margin: 0 auto; 
+}
+.header a.one{
+    width: 150px;
+    height: 100px;
+    background:url(../images/logo11.png) left no-repeat;
+    float: left;
+    display: block;
+    background-position: 0 15px;
+}
+.header a.two{
+    width: 305px;
+    height: 100px;
+    background:url(../images/weipinhui.png) no-repeat;
+    float: right;
+    display: block;
+    background-position: 0 0;
+}
+
+/* 注册块 */
+.banner{
+width: 100%;
+height: 650px;
+background: url(../images/weipin.jpg)  top center no-repeat;
+}
+.banner .bx{
+width: 1000px;
+height:650px;
+margin: 0 auto;
+}
+.banner-r{
+    width: 360px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 2px;
+   margin-top: 50px;
+  float:right;
+}
+.banner-r h2{
+width: 360px;
+height: 50px;
+padding: 0px 30px;
+font-size: 18px;
+line-height: 50px;
+color: #666;
+font-style: normal;
+font-weight: 700;
+border-bottom: 1px solid #e0e0e0;
+}
+.banner-r h2 span{
+    font-size: 14px;
+ font-weight: normal;
+ float: right;
+ color: #333;
+}
+.banner-r h2 span a{
+    text-decoration: none;
+    color: #f10180;
+}
+.tel{
+width: 360px;
+height: 484px;
+padding: 30px;
+position: relative;
+}
+.tel input.please{
+    padding-left: 40px;
+width: 300px;
+height: 45px;
+line-height: 32px;
+border-radius: 2px;
+border:1px solid #b2b2b2;
+outline: 0;
+margin-bottom: 25px;
+color: #999;
+
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #aaa;
+    font-size: 16px;
+  }
+  
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #aaa;
+    font-size: 16px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #aaa;
+    font-size: 16px;
+  }
+.tel input.yan{
+    padding-left: 40px;
+    width: 158px;
+    height: 45px;
+    border:1px solid #b2b2b2;
+    outline: 0;
+    margin-bottom: 25px;
+    border-radius: 2px;
+color: #999;
+ 
+}
+.tel  a.huo{
+    width: 131px;
+    height: 45px;
+display:inline-block;
+float: right;
+background: #d0d0d0;
+line-height: 45px;
+color: #999;
+font-size: 14px;
+border-radius: 2px;
+text-align: center;
+
+}
+.tel  a.huo:hover{
+    text-decoration: none;
+
+}
+.tel .he .yes{
+width: 19px;
+height: 16px;
+background: url(../images/sprite.png) -48px 0px no-repeat;
+display: block;
+float: left;
+}
+.tel .yes:hover{
+    background: url(../images/sprite.png) -24px -21px no-repeat;
+}
+.tel .he{
+    width: 300px;
+    height: 48px;
+    line-height: 20px;
+
+}
+.tel .he .yes1{
+    font-size: 12px;
+    display: inline-block;
+    width: 276px;
+    }
+    .tel .he .yes1 a{
+color: #1da0dd;
+margin-right: -8px;
+
+    }
+    .tel .he .yes1 a:hover{
+        color: #3cbdff;
+        text-decoration: none;
+    }
+  .tel a.zhuce{
+    width: 300px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 2px;
+    margin-top: 30px;
+    display: block;
+    background: #f10180;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+  }  
+  .tel a.zhuce:hover{
+    background: #f43499;
+    transition: all .3s ease;
+  }
+  /* 文字图标 */
+.tel span.one{
+width: 24px;
+height: 24px;
+background: url(../images/shouji.png) no-repeat;
+background-size: cover;
+display: block;
+position: absolute;
+top: 40px;
+left: 35px;
+}
+.tel span.two{
+    width: 22px;
+    height: 22px;
+    background: url(../images/duanxin.png) no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 38px;
+    }
+    .tel span.three{
+        width: 47px;
+        height: 27px;
+        background: url(../images/suoa.png) no-repeat;
+        background-size:100% 100%;
+        display: block;
+        position: absolute;
+        top: 178px;
+        left: 25px;
+        }
+ .tel span.four{
+     width: 47px;
+     height: 27px;
+    background: url(../images/suoa.png) no-repeat;
+ background-size:100% 100%;
+  display: block;  
+    position: absolute;
+    top: 248px;
+    left: 26px;
+   
+
+            }
+           
+    
+
+
+
+
+  /* 文字图标end */
+
+  /* 底部样式 */
+.footer {
+    width: 100%;
+    height: 220px;
+
+    padding: 35px 0 0px;
+    color: #6C6C6C;
+  
+}
+.foot-cont {
+    width: 1200px;
+    height: 173px;
+    margin: 0 auto;
+}
+
+.foot-cont p.dao {
+    width: 540px;
+    height: 18px;
+    margin: 0 auto;
+    line-height: 18px;
+}
+
+.dao a {
+    width:45px;
+    height: 16px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .6);
+    color: #6C6C6C;
+
+    text-decoration: none;
+    width: 56px;
+    display: block;
+    float: left;
+    margin-right:25px;
+}
+.dao a.haohuo{
+    width: 70px;
+    height: 16px;
+}
+.dao a:hover {
+    text-decoration: underline;
+ 
+}
+
+.shouye {
+    border-right: 1px solid rgba(255, 255, 255, .6);
+}
+
+.foot-cont .wang {
+    width: 1200px;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, .6);
+    color: #6C6C6C;
+
+}
+
+.foot-cont .zhan {
+    margin-top: 0px;
+}
+.wang a {
+    color: rgba(255, 255, 255, .6);
+    color: #6C6C6C;
+
+}
+
+.bao a {
+    text-decoration: none;
+}
+
+.zhan a.xian {
+    text-decoration: none;
+}
+.wang .fan{
+color: blue;
+}
+/* 页面底部样式结束 */
